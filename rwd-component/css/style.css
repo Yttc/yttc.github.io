@@ -1,0 +1,35 @@
+.bgc{
+    background-color: cornflowerblue;
+}
+.andbtn{
+    height: 50px;
+    width: 152px;
+    border: none;
+    border-radius: 5.5px;
+    background-image: url("../img/app-download-android.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.iosbtn{
+    height: 50px;
+    width: 152px;
+    border: none;
+    border-radius: 5.5px;
+    background-image: url("../img/app-download-ios.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.t-color{
+    color: cornflowerblue;
+}
+.box-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.footer-content{
+    height: 50px;
+    line-height: 50px;
+}
