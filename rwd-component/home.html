@@ -1,238 +1,296 @@
 <!doctype html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>MoriMori萬食町-官方首頁</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<!-- css文件載入 -->
 	<script src="https://kit.fontawesome.com/fb5a6912d9.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/style.css">
 	<!-- js文件載入（boostrap v5.1.3）-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+		<!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> --> <!--原專案BS4檔案-->
+
 </head>
+
 <body>
-<!--頁首/開始-->
-<header>
-	<!--<img src="./img/sushi-banner-s.png" alt="banner" class="img-fluid">-->
-	<div class="container">
-		<div class="row">
-			<div class="col-4">
-				<div class="embed-responsive embed-responsive-4by3 ">
-					<video width="200" height="150" autoplay loop>
-						<source src="./img/sushijump.mp4" type="video/mp4">Your browser does not support the video tag.
-					</video>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
-<!--頁首/結束-->
-<!--遊戲介紹/開始-->
-<section class="p-3 bgc">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-md-8">
-				<h2 class="text-warning"><strong>遊戲簡介</strong></h2>
-				<p class="text-white">《Mori Mori萬食町》是一款融合角色扮演的經營遊戲。<br>
-					在某次出海捕魚時，老酢夫意外到訪一座只有動物居住的城町，發現這裡的動物們對美食各有獨到的堅持。為了將畢生所知的美味發揚光大，身為料理職人的老酢夫開始鑽研為動物帶來幸福的料理，「萬食町」的歷史也由此展開
-					。</span></p>
-			</div>
-			
-			<div class="col-12 col-md-4">
-				<h2 class="text-warning"><strong>DOWNLOAD</strong></h2>
-				<button type="button" class="btn btn-warning btn-block btn-lg "><small><strong>Mac Download</strong></small></button>
-				<button type="button" class="btn btn-warning btn-block btn-lg"><small><strong>Windows Download<strong></small></button>
-			</div>
-		</div>
-	</div>
-</section>
-<!--遊戲介紹/結束-->
-<!--場景介紹/開始-->
-<section class="box-30">
-	<div class="container">
-		<h2 class="text-center mb-4 mt-4 t-color"><strong>遊戲畫面</strong></h2>
-		<div class="row">
-			<div class="col-12 col-sm-6 col-md-3 mb-4">
-				<div class="border rounded p-1">
-					<img src="./img/game1.png" alt="little game" class="img-fluid">
-					<div class="mt-3">
-						<p class="text-center text-secondary"><small>研發特色料理觸發秘密關卡，小遊戲是賺外快的好時機</small></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-6 col-md-3 mb-4"> 
-				<div class="border rounded p-1">
-					<img src="./img/game4.png" alt="inside-restaurant" class="img-fluid">
-					<div class="mt-3">
-						<p class="text-center text-secondary"><small>添加設備打造專屬風格，今天會有哪位稀客慕名而來呢？</small></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-6 col-md-3 mb-4">
-				<div class="border rounded p-1">
-					<img src="./img/game2.png" alt="wallpaper" class="img-fluid">
-					<div class="mt-3">
-						<p class="text-center text-secondary"><small>取得食堂評價星等，解鎖特殊增益項目及各式精美桌布</small></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-6 col-md-3 mb-4">
-				<div class="border rounded p-1">
-					<img src="./img/game3.png" alt="cuisine" class="img-fluid">
-					<div class="mt-3">
-						<p class="text-center text-secondary"><small>每月加入新菜色與專屬任務，料理職人們敬請期待!</p>
+	<!--頁首/開始-->
+	<header class="header">
+		<!--<img src="./img/sushi-banner-s.png" alt="banner" class="img-fluid">-->
+		<div class="container video-box-p">
+			<div class="row">
+				<div class="col-4">
+					<div class="embed-responsive embed-responsive-4by3">
+						<video muted width="450" src="./img/sushijump.mp4" autoplay loop controls
+							class="embed-responsive-item"></video>
+
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<!--場景介紹/結束-->
-<!--魔王攻擊招式/開始-->
-<section class="bgc box-30">
-	<div class="container">
-		<h2 class="text-white text-center mb-4"><strong>料理研製</strong></h2>
-		<table class="table table-hover bg-white">
-			<thead>
-				<tr class="bg-warning text-center">
-					<th scope="col">料理名稱</th>
-					<th scope="col">習得條件</th>
-					<th scope="col">學習成本</th>
-					<th scope="col">特殊效果</th>
-				</tr>
-			</thead>
-			<tbody class="text-center text-secondary">
-				<tr>
-					<td class="align-middle">醋泡青花魚壽司</td>
-					<td class="align-middle">1.完成任務《貓鯊的委託》<br>2.解鎖道具「高級米醋」</td>
-					<td class="align-middle">5,000金幣</td>
-					<td class="align-middle">提升大型魚捕獲率3%</td>
-				</tr>
-				<tr>
-					<td rowspan="2" class="align-middle">豚骨叉燒拉麵</td>
-					<td>招待「森林熊霸」</td>
-					<td>10,000金幣</td>
-					<td>每招待一位熊顧客，增加小費100金幣</td>
-				</tr>
-				<tr>
-					<td>擁有道具「火烤烤爐」</td>
-					<td>12,000金幣</td>
-					<td class="align-middle">減少麵包類料理製作時間5%</td>
-				</tr>
-				<tr>
-					<td class="align-middle" >雨神文字燒</td>
-					<td class="align-middle ">1.高麗菜收成率達60%<br>2.解鎖設備「小煎鍋」</td>
-					<td class="align-middle">8,500金幣</td>
-					<td class="align-middle">吸引「稻荷使者」機率提升8%</td>
-				</tr>
-				<tr>
-					<td class="align-middle">檸檬糖</td>
-					<td>取得15顆好評星星</td>
-					<td>20,000金幣</td>
-					<td>作物收成時間縮短10%</td>
-				</tr>
-				<tr>
-					<td rowspan="2" class="align-middle">蜜漬小豆燒</td>
-					<td>店內配有「迷你達摩」</td>
-					<td>50好評星星</td>
-					<td class="align-middle">冬季每日收入增加500金幣</td>
-				</tr>
-				<tr>
-					<td>招待「風邪小刺蝟」</td>
-					<td>75,000金幣</td>
-					<td class="align-middle">解鎖燈具設備折扣5%</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-</section>
-<!--魔王攻擊招式/結束-->
-<!--改善建議與聯絡資訊/開始-->
-<section class="box-30">
-	<div class="container">
-		<div class="row">
-			<!-- 改善建議/開始 -->
-			<div class="col-12 col-md-8">
-				<h2 class="text-center t-color mb-4"><strong>意見回饋</strong></h2>
-				<form>
-					<!-- 姓名欄位/開始 -->
-					<div class="row form-group ">
-						<label for="FormName" class="col-md-2 col-form-label">姓　　名</label>
-						<div class="col-md-10">
-							<input type="text" id="FormName" placeholder="請輸入您的姓名" class="form-control is valid" required>
+	</header>
+	<!--頁首/結束-->
+	<!--遊戲介紹/開始-->
+	<section class="p-3 bgc">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-8">
+					<h2 class="text-warning">
+						<strong>遊戲簡介
+						</strong>
+					</h2>
+					<p class="text-white">《Mori Mori萬食町》是一款融合角色扮演的經營遊戲。<br>
+						在某次出海捕魚時，老酢夫意外到訪一座只有動物居住的城町，發現這裡的動物們對美食各有獨到的堅持。為了將畢生所知的美味發揚光大，身為料理職人的老酢夫開始鑽研為動物帶來幸福的料理，「萬食町」的歷史也由此展開
+						...</span></p>
+				</div>
+
+				<div class="col-12 col-md-4">
+					<h2 class="text-warning">
+						<strong>DOWNLOAD
+						</strong>
+					</h2>
+					<!--用另一個html/js檔引入-->
+					<div class="btn-group mb-2">
+						<!--單一下拉按鈕-->
+						<button type="button" class="btn btn-warning btn-lg dropdown-toggle" data-bs-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							
+								<strong> 
+									MAC Download
+								</strong>
+							
+						</button>
+						<div class="dropdown-menu">
+							<h6 class="dropdown-header text-secondary">系統版本</h6>
+							<a href="#" class="dropdown-item">macOS Sierra</a>
+							<a href="#" class="dropdown-item">OS X 10.11</a>
+							<a href="#" class="dropdown-item">OS X 10.10</a>
+							<a href="#" class="dropdown-item">OS X 10.9</a>
+							<a href="#" class="dropdown-item">OS X 10.8</a>
 						</div>
 					</div>
-					<!-- 姓名欄位/結束 -->
-					<!-- 電子信箱/開始 -->
-					<div class="row form-group">
-						<label for="FormEmail" class="col-md-2 col-form-label">電子信箱</label>
-						<div class="col-md-10">
-							<input type="text" id="FormEmail" placeholder="請輸入您的Email" class="form-control is-invalid" required>
+					<br>
+					<!--分割下拉按鈕--->
+					<div class="btn-group">
+						<button type="button" class="btn btn-danger btn-lg">
+								<strong>PC Download
+								</strong>
+						</button>
+
+						<button type="button" class="btn btn-danger btn-lg dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+							<span class="visually-hidden">Toggle Dropdown</span>
+						</button>
+						<div class="dropdown-menu dropdown-menu-end">
+							<a href="#" class="dropdown-item">Windows 10</a>
+							<a href="#" class="dropdown-item">Windows 8</a>
+							<a href="#" class="dropdown-item">Windows 7</a>
+							<div class="dropdown-divider"></div>
+							<a href="#" class="dropdown-item disabled">Windows xp</a>
 						</div>
 					</div>
-					<!-- 電子信箱/結束 -->
-					<!-- 喜好程度/開始 -->
-					<div class="row form-group">
-						<div class="col-md-2 col-form-lable">遊戲體驗評價</div>
-						<div class="col-md-10">
-							<div class="form-check">
-								<label class="form-check-label">
-									<input type="radio" name="like" value="option1" class="form-check-input" checked>非常喜歡
-								</label>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--遊戲介紹/結束-->
+	<!--場景介紹/開始-->
+	<section class="box-30">
+		<div class="container">
+			<h2 class="text-center mb-4 mt-4 t-color"><strong>遊戲畫面</strong></h2>
+			<div class="row">
+				<div class="col-12 col-sm-6 col-md-3 mb-4">
+					<div class="border rounded p-1">
+						<img src="./img/game1.png" alt="little game" class="img-fluid">
+						<div class="mt-3">
+							<p class="text-center text-secondary"><small>研發特色料理觸發秘密關卡，小遊戲是賺外快的好時機</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-3 mb-4">
+					<div class="border rounded p-1">
+						<img src="./img/game4.png" alt="inside-restaurant" class="img-fluid">
+						<div class="mt-3">
+							<p class="text-center text-secondary"><small>添加設備打造專屬風格，今天會有哪位稀客慕名而來呢？</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-3 mb-4">
+					<div class="border rounded p-1">
+						<img src="./img/game2.png" alt="wallpaper" class="img-fluid">
+						<div class="mt-3">
+							<p class="text-center text-secondary"><small>取得食堂評價星等，解鎖特殊增益項目及各式精美桌布</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-3 mb-4">
+					<div class="border rounded p-1">
+						<img src="./img/game3.png" alt="cuisine" class="img-fluid">
+						<div class="mt-3">
+							<p class="text-center text-secondary"><small>每月加入新菜色與專屬任務，料理職人們敬請期待!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--場景介紹/結束-->
+	<!--魔王攻擊招式/開始-->
+	<section class="bgc box-30">
+		<div class="container">
+			<h2 class="text-white text-center mb-4"><strong>料理研製</strong></h2>
+			<table class="table table-hover bg-white">
+				<thead>
+					<tr class="bg-warning text-center">
+						<th scope="col">料理名稱</th>
+						<th scope="col">習得條件</th>
+						<th scope="col">學習成本</th>
+						<th scope="col">特殊效果</th>
+					</tr>
+				</thead>
+				<tbody class="text-center text-secondary">
+					<tr>
+						<td class="align-middle">醋泡青花魚壽司</td>
+						<td class="align-middle">1.完成任務《貓鯊的委託》<br>2.解鎖道具「高級米醋」</td>
+						<td class="align-middle">5,000金幣</td>
+						<td class="align-middle">提升大型魚捕獲率3%</td>
+					</tr>
+					<tr>
+						<td rowspan="2" class="align-middle">豚骨叉燒拉麵</td>
+						<td>招待「森林熊霸」</td>
+						<td>10,000金幣</td>
+						<td>每招待一位熊顧客，增加小費100金幣</td>
+					</tr>
+					<tr>
+						<td>擁有道具「火烤烤爐」</td>
+						<td>12,000金幣</td>
+						<td class="align-middle">減少麵包類料理製作時間5%</td>
+					</tr>
+					<tr>
+						<td class="align-middle">雨神文字燒</td>
+						<td class="align-middle ">1.高麗菜收成率達60%<br>2.解鎖設備「小煎鍋」</td>
+						<td class="align-middle">8,500金幣</td>
+						<td class="align-middle">吸引「稻荷使者」機率提升8%</td>
+					</tr>
+					<tr>
+						<td class="align-middle">檸檬糖</td>
+						<td>取得15顆好評星星</td>
+						<td>20,000金幣</td>
+						<td>作物收成時間縮短10%</td>
+					</tr>
+					<tr>
+						<td rowspan="2" class="align-middle">蜜漬小豆燒</td>
+						<td>店內配有「迷你達摩」</td>
+						<td>50好評星星</td>
+						<td class="align-middle">冬季每日收入增加500金幣</td>
+					</tr>
+					<tr>
+						<td>招待「風邪小刺蝟」</td>
+						<td>75,000金幣</td>
+						<td class="align-middle">解鎖燈具設備折扣5%</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	<!--魔王攻擊招式/結束-->
+	<!--改善建議與聯絡資訊/開始-->
+	<section class="box-30">
+		<div class="container">
+			<div class="row">
+				<!-- 改善建議/開始 -->
+				<div class="col-12 col-md-8">
+					<h2 class="text-center t-color mb-4"><strong>意見回饋</strong></h2>
+					<form>
+						<!-- 姓名欄位/開始 -->
+						<div class="row form-group ">
+							<label for="FormName" class="col-md-2 col-form-label">姓　　名</label>
+							<div class="col-md-10">
+								<input type="text" id="FormName" placeholder="請輸入您的姓名" class="form-control is valid"
+									required>
 							</div>
-							<div  class="form-check">
-								<label class="form-check-label">
-									<input type="radio" name="like" value="option2" class="form-check-input">尚可
-								</label>
+						</div>
+						<!-- 姓名欄位/結束 -->
+						<!-- 電子信箱/開始 -->
+						<div class="row form-group">
+							<label for="FormEmail" class="col-md-2 col-form-label">電子信箱</label>
+							<div class="col-md-10">
+								<input type="text" id="FormEmail" placeholder="請輸入您的Email"
+									class="form-control is-invalid" required>
 							</div>
-							<div class="form-check">
-								<label class="form-check-label">
-									<input type="radio" name="like" value="option3" class="form-check-input" disabled>有改進空間
-								</label>
+						</div>
+						<!-- 電子信箱/結束 -->
+						<!-- 喜好程度/開始 -->
+						<div class="row form-group">
+							<div class="col-md-2 col-form-lable">遊戲體驗評價</div>
+							<div class="col-md-10">
+								<div class="form-check">
+									<label class="form-check-label">
+										<input type="radio" name="like" value="option1" class="form-check-input"
+											checked>非常喜歡
+									</label>
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input type="radio" name="like" value="option2" class="form-check-input">尚可
+									</label>
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input type="radio" name="like" value="option3" class="form-check-input"
+											disabled>有改進空間
+									</label>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!-- 喜好程度/結束 -->
-					<!-- 改善建議/開始 -->
-					<div class="row form-group">
-						<label class="col-md-2 col-form-label">改善建議</label>
-						<div class="col-md-10">
-							<textarea rows="3" placeholder="請填寫您對於此款遊戲的改善建議" class="form-control"></textarea>
+						<!-- 喜好程度/結束 -->
+						<!-- 改善建議/開始 -->
+						<div class="row form-group">
+							<label class="col-md-2 col-form-label">改善建議</label>
+							<div class="col-md-10">
+								<textarea rows="3" placeholder="請填寫您對於此款遊戲的改善建議" class="form-control"></textarea>
+							</div>
 						</div>
-					</div>
-					<!-- 改善建議/結束 -->
-					<!-- 送出與清除按鈕/開始 -->
-					<div class="row form-group justify-content-end">
-						<div class="col-12 col-sm-4">
-							<button type="reset" class="btn btn-warning btn-md " disabled>清除</button>
-							<button type="submit" class="btn bgc btn-md text-white float-right">送出</button>
+						<!-- 改善建議/結束 -->
+						<!-- 送出與清除按鈕/開始 -->
+						<div class="row form-group justify-content-end">
+							<div class="col-12 col-sm-4">
+								<button type="reset" class="btn btn-warning btn-md " disabled>清除</button>
+								<button type="submit" class="btn bgc btn-md text-white float-right">送出</button>
+							</div>
 						</div>
-					</div>
-					<!-- 送出與清除按鈕/開始 -->
-				</form>
+						<!-- 送出與清除按鈕/開始 -->
+					</form>
+				</div>
+				<!-- 改善建議/結束 -->
+				<!-- 聯絡資訊/開始 -->
+				<div class="col-12 col-md-4 mt-60">
+					<address>
+						<strong>發行商:</strong> InosFun, Inc.<br />
+						<strong>地址:</strong> 111台北市士林區ＯＯＯＯＯＯ <br />
+						<strong><abbr title="聯絡電話">TEL:</abbr></strong> (123) 456-7890 <br />
+						<strong><abbr title="信箱">E-Mail:</abbr></strong> <a
+							href="mailto:inosfun@gmail.com">inosfun2021@gmail.com</a>
+					</address>
+				</div>
+				<!-- 聯絡資訊/結束 -->
 			</div>
-			<!-- 改善建議/結束 -->
-			<!-- 聯絡資訊/開始 -->
-			<div class="col-12 col-md-4 mt-60">
-				<address>
-					<strong >發行商:</strong> InosFun, Inc.<br/>
-					<strong >地址:</strong> 111台北市士林區ＯＯＯＯＯＯ <br/>
-					<strong><abbr title="聯絡電話">TEL:</abbr></strong> (123) 456-7890 <br/>
-					<strong><abbr title="信箱" >E-Mail:</abbr></strong> <a href="mailto:inosfun@gmail.com">inosfun2021@gmail.com</a>
-				</address>
-			</div>
-			<!-- 聯絡資訊/結束 -->
 		</div>
-	</div>
-</section>
-<!--改善建議與聯絡資訊/結束-->
-<!--頁腳/開始-->
-<footer class="mt-5 bg-dark footer-content">
-	<p class="text-center text-white mb-0">© 2021 InosFun.Inc</p>
-</footer>
-<!--頁腳/結束-->
+	</section>
+	<!--改善建議與聯絡資訊/結束-->
+	<!--頁腳/開始-->
+	<footer class="mt-5 bg-dark footer-content">
+		<p class="text-center text-white mb-0">© 2021 InosFun.Inc</p>
+	</footer>
+	<!--頁腳/結束-->
 </body>
+
 </html>

@@ -34,14 +34,10 @@
     line-height: 50px;
 }
 .header{
+    padding: 50px 0;
     background-image: url(../img/sushi-banner-s.png);
     background-position: center top;
-    background-size: cover;
+    background-size:contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.video-box-p{
-    padding-top: 350px;
-    padding-bottom: 20px;
-}
-
