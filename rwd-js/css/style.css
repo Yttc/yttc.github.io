@@ -1,0 +1,29 @@
+.bgc{
+    background-color: cornflowerblue;
+}
+.t-color{
+    color: cornflowerblue;
+}
+.box-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.footer-content{
+    height: 50px;
+    line-height: 50px;
+}
+.header{
+    background-image: url(../img/sushi-banner-s.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.video-box-p{
+    padding-top: 350px;
+    padding-bottom: 20px;
+}
+
