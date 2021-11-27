@@ -57,7 +57,7 @@
 					<!--用另一個html/js檔引入-->
 					<div class="btn-group mb-2">
 						<!--單一下拉按鈕-->
-						<button type="button" class="btn btn-warning btn-lg dropdown-toggle" data-bs-toggle="dropdown"
+						<button type="button" class="btn btn-warning btn-lg dropdown-toggle" data-toggle="dropdown"
 							aria-haspopup="true" aria-expanded="false">
 							
 								<strong> 
@@ -82,7 +82,7 @@
 								</strong>
 						</button>
 
-						<button type="button" class="btn btn-danger btn-lg dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+						<button type="button" class="btn btn-danger btn-lg dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
 						aria-haspopup="true" aria-expanded="false">
 							<span class="sr-only">Toggle Dropdown</span>
 						</button>
@@ -262,7 +262,7 @@
 				<form action="">
 					<div class="card border-secondary w-100">
 						<div class="bgc p-3">
-							<h3 class="text-center text-white">聯繫資料填寫</h3>
+							<h3 class="text-center text-white">抽獎活動登錄</h3>
 						</div>
 						<div class="card-body bg-transparent">
 							<div class="input-group input-group-lg mb-2">
@@ -304,34 +304,34 @@
 									<input type="checkbox" name="options" value="option4" class="form-check-input">其他
 								</label>
 							</div>
-							<button type="button">取消</button>
+							<button type="button" class="btn btn-default btn-lg btn-block" data-toggle="collapse" data-target="#cancel">取消</button> 
 							<!-- 取消內容/開始 -->
-							<div>
-								<div>獎品有限，若您尚未填寫請加快腳步填寫後送出。</div>
+							<div class="mb-3 collapse" id="cancel">
+								<div class="card card-body bg-danger rounded-0 text-white">獎項有限，若您尚未填寫，請加快腳步填寫送出唷～</div>
 							</div>
 							<!-- 取消內容/結束 -->
-							<button type="submit" class="btn btn-warning btn-lg btn-block mt-3">送出</button>
+							<button type="submit" class="btn btn-warning btn-lg btn-block mt-3" data-toggle="modal" data-target="#myModal">送出</button>
 						</div>
 					</div>
 				</form>
 			</div>
 			<!-- 改善建議/結束 -->
 			<!-- Modal/開始 -->
-			<div>
-				<div>
+			<div class="modal fade" id="myModal" tabindex="-1">
+				<div class="modal-dialog modal-lg">
 					<!-- Modal content-->
-					<div>
-						<div>
-							<h4>聯繫資料填寫</h4>
-							<button type="button">
-								<span>&times;</span>
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title t-color">抽獎登錄</h4>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
-						<div>
-							<p>感謝您的填寫，聯繫資料已送出，請注意兌獎日期</p>
+						<div class="modal-body">
+							<p>資料已送出，感謝您的填寫！敬請關注兌獎日期:)</p>
 						</div>
-						<div>
-							<button type="button">關閉</button>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">關閉</button>
 						</div>
 					</div>
 				</div>
